@@ -1,6 +1,6 @@
 To Run the site use IISExpress for local
 
-The application is set run using swagger
+The application is set to run using swagger
 
 Once the swagger opens authentication is required
 
