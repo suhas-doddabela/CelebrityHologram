@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{2C644EFE-417E-4B47-8D31-C25C065361A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2E5CE28C-D657-445F-9276-66A2AC18A3D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{BCFB72CB-B8F5-4D05-81E3-08FB945E29CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rbc.Hologram.Contracts", "Core\Rbc.Hologram.Contracts\Rbc.Hologram.Contracts.csproj", "{FB8397A9-70A2-4FBA-A32B-A6AD1102D83C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rbc.Hologram.Core", "Core\Rbc.Hologram.Core\Rbc.Hologram.Core.csproj", "{82208455-4BCE-4F38-85EF-CF9C0CDD8807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rbc.Hologram.Api", "Api\Rbc.Hologram.Api\Rbc.Hologram.Api.csproj", "{D6A9F894-B4C0-4EC4-B60A-C436527E704C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rbc.Hologram.Data", "Data\Rbc.Hologram.Data\Rbc.Hologram.Data.csproj", "{13543C78-C13C-4BB1-A697-D7446BA0F30B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB8397A9-70A2-4FBA-A32B-A6AD1102D83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8397A9-70A2-4FBA-A32B-A6AD1102D83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8397A9-70A2-4FBA-A32B-A6AD1102D83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8397A9-70A2-4FBA-A32B-A6AD1102D83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82208455-4BCE-4F38-85EF-CF9C0CDD8807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82208455-4BCE-4F38-85EF-CF9C0CDD8807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82208455-4BCE-4F38-85EF-CF9C0CDD8807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82208455-4BCE-4F38-85EF-CF9C0CDD8807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A9F894-B4C0-4EC4-B60A-C436527E704C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A9F894-B4C0-4EC4-B60A-C436527E704C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A9F894-B4C0-4EC4-B60A-C436527E704C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A9F894-B4C0-4EC4-B60A-C436527E704C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13543C78-C13C-4BB1-A697-D7446BA0F30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13543C78-C13C-4BB1-A697-D7446BA0F30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13543C78-C13C-4BB1-A697-D7446BA0F30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13543C78-C13C-4BB1-A697-D7446BA0F30B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB8397A9-70A2-4FBA-A32B-A6AD1102D83C} = {2E5CE28C-D657-445F-9276-66A2AC18A3D4}
+		{82208455-4BCE-4F38-85EF-CF9C0CDD8807} = {2E5CE28C-D657-445F-9276-66A2AC18A3D4}
+		{D6A9F894-B4C0-4EC4-B60A-C436527E704C} = {2C644EFE-417E-4B47-8D31-C25C065361A8}
+		{13543C78-C13C-4BB1-A697-D7446BA0F30B} = {BCFB72CB-B8F5-4D05-81E3-08FB945E29CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68C8402F-8A30-4435-98EE-565C134FAEC8}
+	EndGlobalSection
+EndGlobal
