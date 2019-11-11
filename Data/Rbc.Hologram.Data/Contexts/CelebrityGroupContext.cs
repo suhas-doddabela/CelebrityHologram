@@ -38,7 +38,8 @@ namespace Rbc.Hologram.Data.Contexts
             using (var c = new CelebrityHologramContext())
             {
                 c.CelebrityGroup.Add(celebGroup);
-                return c.SaveChanges();
+                c.SaveChanges();
+                return celebGroup.CelebrityGroupId;
             }
         }
 
