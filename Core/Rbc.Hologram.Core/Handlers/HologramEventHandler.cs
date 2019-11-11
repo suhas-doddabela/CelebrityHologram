@@ -22,7 +22,7 @@ namespace Rbc.Hologram.Core.Handlers
         {
             var hevent = hContext.Get(actionDto.Name);
 
-            if (hevent != null && hevent.Any())
+            if (hevent != null)
                 throw new DuplicateException("Duplicate user", "Already there is user exsisting for this credentials.");
 
             return hContext.Save(Mapper.Map(actionDto));
