@@ -19,12 +19,6 @@ namespace Rbc.Hologram.Data.Models
         public string LandPhone { get; set; }
         public int? HologramTypeId { get; set; }
         public bool Deleted { get; set; }
-
-        public bool Any()
-        {
-            throw new NotImplementedException();
-        }
-
         public string CreatedBy { get; set; }
         public DateTime? DateCreated { get; set; }
         public string UpdatedBy { get; set; }
